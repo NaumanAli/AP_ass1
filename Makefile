@@ -1,0 +1,41 @@
+madness: main.o  team.o season.o margin.o game.o winPer.o csvParser.o  teamManager.o seasonManager.o gameManager.o
+	g++ -o $@ $^
+
+
+team.o: team.cpp team.h
+	g++ -c $<
+
+
+season.o: season.cpp season.h
+	g++ -c $<
+
+
+margin.o: margin.cpp margin.h
+	g++ -c $<
+
+
+game.o: game.cpp game.h
+	g++ -c $<
+
+
+winPer.o: winPer.cpp winPer.h
+	g++ -c $<
+
+
+csvParser.o: csvParser.cpp csvParser.h
+	g++ -c $<
+
+teamManager.o: teamManager.cpp teamManager.h
+	g++ -c $<
+
+seasonManager.o: seasonManager.cpp seasonManager.h
+	g++ -c $<
+
+
+
+main.o: main.cpp 
+	g++ -c $<
+
+
+
+

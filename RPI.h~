@@ -1,0 +1,37 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <map>
+#include <stdint.h>
+#include <sstream>
+#include <cstdlib>
+#include "game.h"
+#include "team.h"
+#include "margin.h"
+#include "season.h"
+#include "winPer.h"
+#include "csvParser.h"
+#include "gameManger.h"
+#include "teamManger.h"
+#include "seasonManager.h"
+using namespace std;
+
+void printVector(vector<string> x);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
